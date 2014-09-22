@@ -3,7 +3,7 @@ module.exports = (robot) ->
     game = new Game(new Dice(), new Dice())
     resp = "You get: #{game.dice1.value} #{game.dice2.value}\n"
     if game.is34()
-      resp += "Ahahah! You lose!"
+      resp += "Ahahah! You lose! https://www.youtube.com/watch?v=XMdoGqcnBoo"
     else if game.isDouble()
       resp += "It's a double! Play again!"
     else

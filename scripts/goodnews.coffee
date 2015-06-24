@@ -2,10 +2,12 @@ module.exports = (robot) ->
   formatMessage = (message) ->
     """
     ```
-    Bonjour Yann et Léo,\n
-    Super nouvelle :simple_smile:\n\n
-    #{message}\n\n
-    Amicalement\n
+    Bonjour Yann et Léo,
+    Super nouvelle :-)
+
+    #{message}
+
+    Amicalement,
     Octave
     ```
     """
